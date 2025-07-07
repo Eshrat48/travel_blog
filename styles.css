@@ -1,0 +1,49 @@
+/* top menu decoration */
+.topnav{
+    text-align: right;
+    margin-top: 20px;
+    background-color: rgb(203, 226, 246);
+    padding: 11px;
+}
+.topnav a{
+    margin: 0 15px;
+    font-size: 17px;
+    font-weight: 900;
+    text-decoration: solid;
+}
+
+/* index page */
+/* heading part */
+.hp_image {
+    position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;         /* centers the block */
+  display: block;         /* ensures it behaves like a block element */
+
+}
+
+.hp_image img {
+  width: 100%;      /* makes the image fit inside container */
+  height: auto;     /* keeps the image's aspect ratio */
+  display: block;
+}
+
+.hp_heading{
+     position: absolute; /* Positions this box over the image (inside a relative container) */
+     top: 5%;           /* Moves the box down from top */
+     left: 33%;          /* Moves the box from the left side */
+     color: white;       /* Sets the text color to white */
+     padding: 20px;      /* Adds space inside the box around the text */
+     text-align: center;
+  
+}
+
+#h1{
+    margin-bottom: 10px;
+    font-size: 65px;
+}
+#h4{
+    margin-top: 5px;
+    font-size: 24px;
+}
